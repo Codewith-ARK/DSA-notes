@@ -1,0 +1,36 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+body{
+    background-color: rgb(30, 30, 30);
+    margin: 50px 50px;
+}
+hr{
+    width: 85%;
+    border: 1px solid rgb(165, 165, 165);
+    opacity: 25%;
+    border-radius: 5px;
+}
+@media only screen and (min-width: 1000px){
+    body{
+        margin: 50px 200px;
+    }
+}
+
+div{
+    margin: 25px 0px;
+    padding: 5px 24px;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: rgb(43, 43, 43);
+}
+li{
+    margin: 8px 0px 0px 0px;
+}
+h1, h2, h3, h4, h5{
+    color: rgb(229, 226, 226);
+}
+p, ul, ol{
+    color: rgb(202, 202, 202);
+}

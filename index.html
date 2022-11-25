@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- StyleSheets -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Data Structures & Algorithms</title>
+
+    <style>
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+        body {
+            background-color: rgb(30, 30, 30);
+            margin: 50px 50px;
+        }
+
+        hr {
+            width: 85%;
+            border: 1px solid rgb(165, 165, 165);
+            opacity: 25%;
+            border-radius: 5px;
+        }
+
+        @media only screen and (min-width: 1000px) {
+            body {
+                margin: 50px 200px;
+            }
+        }
+
+        div {
+            margin: 25px 0px;
+            padding: 5px 24px;
+            height: fit-content;
+            border-radius: 15px;
+            background-color: rgb(43, 43, 43);
+        }
+
+        li {
+            margin: 8px 0px 0px 0px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: rgb(229, 226, 226);
+        }
+
+        p,
+        ul,
+        ol {
+            color: rgb(202, 202, 202);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Data Structures</h1>
+    <p>Data Structures are the methods we use to store data in our Computer's Memory.</p>
+
+    <div>
+        <h2>Types of Data Strucutres</h2>
+        <p>Data Strucutres are divided into (2) categories</p>
+        <ul>
+            <h3>
+                <li>Linear Data Strcutres</li>
+            </h3>
+            <p>Data Structures that store data in a sequential manner</p>
+            <b><em>Example:</em></b> Array, Stack, Queue, Linked List, etc.
+            <br><br>
+            <h3>
+                <li>Non-Linear Data Structures</li>
+            </h3>
+            <p>Data Structures that store data in a non-sequential manner</p>
+            <b><em>Example:</em></b> Graphs, Trees.
+        </ul>
+    </div>
+
+
+    <div>
+        <h2>Linear Data Strucutres</h2>
+        <ul>
+            <h3>
+                <li>Array</li>
+            </h3>
+            <p>Arrays are the most simplest type of Data Strucutre they are used to store similar Type of data and their
+                memory allocation is sequential meaning they're stored one after the other and their memory is
+                allocation is also done one after the other.</p>
+        </ul>
+
+        <hr>
+        <ul>
+            <h3>
+                <li>Stack</li>
+            </h3>
+            <p>Stack is a type of linear data structure and it works on the LIFO (Last in First out) principle</p>
+            <p>Basic operations of Stack are:</p>
+            <ul>
+                <b>
+                    <li>Push(): </li>
+                </b>adds an element on TOP of the stack
+                <b>
+                    <li>pop(): </li>
+                </b>removes an element from the TOP of the stack
+                <b>
+                    <li>isEmpty(): </li>
+                </b>checks wether the stack is empty
+                <b>
+                    <li>peek(): </li>
+                </b>used to display the element on top without removing it
+            </ul>
+        </ul>
+
+        <hr>
+
+        <ul>
+            <h3>
+                <li>Queue</li>
+            </h3>
+            Queue - another example of Linear data struture. Queue is based on the FIFO (First in, First out) principle.
+            Opposite to the Stack.
+            <p>Basic operations of queue are:</p>
+            <ul>
+                <b>
+                    <li>enqueue(): </li>
+                </b>adds an element at the END of the queue
+                <b>
+                    <li>dequeue(): </li>
+                </b>removes an element at the FRONT of the queue
+                <b>
+                    <li>peek(): </li>
+                </b>displays the front-most element of the queue
+            </ul>
+            <h3>Types of Queues</h3>
+            <ul>
+                <b>
+                    <li>Circular Queue: </li>
+                </b>in this type of queue the last element is connected to the first element of the queue.
+                <b>
+                    <li>Deque: </li>
+                </b>Deque or Double Ended Queue is a type of queue in which insertion and removal of elements can either
+                be performed from the front or the rear. Thus, it does not follow FIFO rule (First In First Out).
+                <b>
+                    <li>Priority Queue: </li>
+                </b>A priority queue is a special type of queue in which each element is associated with a priority
+                value. And, elements are served on the basis of their priority. That is, higher priority elements are
+                served first.
+            </ul>
+        </ul>
+        <hr>
+        <ul>
+            <li>
+                <h3>Linked List</h3>
+            </li>
+            A linked list consists of <b>NODES</b>. Each node acts like a building block of linked list and each node
+            consists of an <b>ADDRESS</b> & a <b>VALUE</b>. The first node known as the <b>HEAD</b> of linked list only
+            contains an address and the last node of the linked list known as <b>TAIL</b> consist of a value and an
+            address pointing NULL
+
+            <h3>Types of Linked Lists</h3>
+            <ul>
+                <b></b>
+                <li>Singly Linked List: </li></b>each node only has (1) address and the direction of traversing can only
+                be unidirectional.
+                <b>
+                    <li>Doubly Linked List: </li>
+                </b>each node has (2) addresses & the direction of traversing can be bi-directional.
+            </ul>
+        </ul>
+        <hr>
+
+        <ul>
+            <h3>
+                <li>Array List</li>
+            </h3>
+            Simply put, dynamic array. Where the size is initially fixed, but as the array grows and requires more space
+            a new array is created double the size of original array and all the elements of the old array are copied
+            into the new array
+        </ul>
+
+    </div>
+</body>
+
+</html>
